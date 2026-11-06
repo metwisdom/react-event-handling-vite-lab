@@ -1,13 +1,11 @@
-// Code PasswordInput Component Here
-
-function PasswordInput (){
+function PasswordInput() {
     function handleChange(event) {
-        console.log("Enetring Password....");
+        console.log("Entering password...");
     }
 
-    return(
+    return (
         <>
-        <input type="password" name="password" onChange={handleChange}/>
+            <input type="password" name="password" onChange={handleChange} />
         </>
     );
 }
